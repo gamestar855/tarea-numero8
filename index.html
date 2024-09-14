@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="form-box">
+            <h1>Welcome</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quam duis vitae curabitur amet, fermentum lorem.</p>
+
+            <form>
+                <div class="input-group">
+                    <input type="text" id="first-name" placeholder="First name" required>
+                </div>
+
+                <div class="input-group">
+                    <input type="text" id="last-name" placeholder="Last name" required>
+                </div>
+
+                <div class="input-group">
+                    <input type="email" id="email" placeholder="E-mail" required>
+                    <span class="icon">&#9993;</span>
+                </div>
+
+                <div class="input-group">
+                    <input type="password" id="password" placeholder="Password" required>
+                    <span class="icon">&#128065;</span>
+                </div>
+
+                <div class="input-group">
+                    <select id="city" required>
+                        <option value="" disabled selected>City</option>
+                        <option value="city1">City 1</option>
+                        <option value="city2">City 2</option>
+                    </select>
+                    <span class="icon">&#128205;</span>
+                </div>
+
+                <div class="input-group">
+                    <input type="date" id="birthday" required>
+                    <span class="icon">&#128197;</span>
+                </div>
+
+                <div class="input-group">
+                    <select id="nationality" required>
+                        <option value="" disabled selected>Nationality</option>
+                        <option value="usa">USA</option>
+                        <option value="other">Other</option>
+                    </select>
+                    <span class="icon">&#127482;&#127480;</span>
+                </div>
+
+                <div class="input-group-checkbox">
+                    <input type="checkbox" id="terms" required>
+                    <label for="terms">Lorem ipsum dolor sit amet, consectetur adipiscing elit. <strong>Gravida eget ultricies</strong> pharetra scelerisque duis cursus.</label>
+                </div>
+
+                <button type="submit" class="btn">Enter</button>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
